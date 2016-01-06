@@ -10,3 +10,4 @@ let app = koa();
 app.use(function(req, res, next) {
    res.body = 'hello ! from andy';
 });
+app.listen(3333);
