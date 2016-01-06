@@ -1,0 +1,29 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaomo/website.git"
+  },
+  "keywords": [
+    "node",
+    "koa",
+    "font-end",
+    "js"
+  ],
+  "author": "andy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yaomo/website/issues"
+  },
+  "homepage": "https://github.com/yaomo/website#readme",
+  "dependencies": {
+    "babel": "^6.3.26",
+    "koa": "^1.1.2"
+  }
+}
