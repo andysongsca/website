@@ -4,7 +4,7 @@
   "description": "personal website",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": ""
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,8 @@
   },
   "homepage": "https://github.com/yaomo/website#readme",
   "dependencies": {
-    "babel": "^6.3.26",
+    "babel": "5.5.8",
+    "babel-core": "^5.4.5",
     "koa": "^1.1.2"
   }
 }

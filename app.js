@@ -1,5 +1,5 @@
 /**
- * ÷˜≥Ã–Ú
+ * ‰∏ªÁ®ãÂ∫è
  * */
 
 'use strict';
@@ -7,7 +7,8 @@
 import koa from 'koa';
 
 let app = koa();
-app.use(function(req, res, next) {
-   res.body = 'hello ! from andy';
+app.use(function* (req, res, next) {
+   this.body = 'hello ! from andyÔºÅmodifIED at 1.9:15:50';
 });
 app.listen(3333);
+console.log('server: http://my.test.com:3333');
