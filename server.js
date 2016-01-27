@@ -1,7 +1,10 @@
 'use strict';
 /**
- * 引入babel 支持es6
+ * babel hook to use es6
  */
 
-require('babel/register');
+require('babel-register')({
+  presets: [ 'es2015' ]
+});
+require("babel-polyfill");
 require('./app');
