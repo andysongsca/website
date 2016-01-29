@@ -9,6 +9,8 @@
 
 export default (router) => {
 	router.get('/index', function* (next) {
-		this.body = 'this is index page!';
+		yield this.render('index', {title: "index title"});
 	});
+
+	router.redirect('/', '/index', 301);
 }

@@ -8,7 +8,7 @@
 'use strict';
 
 export default (router) => {
-	router.get('/test', function* (next) {
+	router.get('/test/clc/asdf', function* (next) {
 		this.body = 'this is test page';
 	});
 }
