@@ -14,3 +14,8 @@ server.js
 app.js
 为主程序，中间件拼装功能
 ===============================================
+# 更新为淘宝镜像，提高npm install速度
+npm config set registry https://registry.npm.taobao.org
+# 查看是否生效
+npm config list
+==================================================

@@ -205,7 +205,7 @@
 	    ct.font = "30px Courier New";
 	    ct.fillStyle = "blue";
    		ct.fillText("duang~ 您的ip为：\n" , 20, 50);
-   		ct.fillText(ip,20,300);
+   		// ct.fillText(ip,20,300);
    		ct.restore();
 
 
